@@ -1,0 +1,9 @@
+fitbit_tokens:
+    access_token: 
+    client: 
+    secret:
+    refresh_token: 
+
+pushover_tokens:
+    id:
+    api_token:
