@@ -27,7 +27,7 @@ def notify(cfg):
 
     po.send_message(formatMsg(getMissingSteps(authd_client)), title="FitBit")
 
-#schedule.every().day.at("20:00").do(notify)
+#schedule.every().day.at("20:00").do(notify,cfg=cfg)
 schedule.every(1).hours.do(notify, cfg=cfg)
 
 notify(cfg)
